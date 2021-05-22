@@ -1,0 +1,166 @@
+html {
+	font-family: Arial;
+	font-size: 10;
+}
+
+body {
+	height: 10vh;
+	overflow: hidden;
+}
+
+a{
+	color: #3300FF;
+}
+
+div.block {
+    width: 100%;
+}
+
+div#header_set{
+	width: 50%;
+    margin: 0 auto; 
+    width: 560px;
+    padding-bottom: 10px;
+}
+
+label#header_set{
+	font-size: 16;
+}
+
+#header {
+	height: 20px;
+	text-align: right;
+	padding: 5px;
+	border-bottom: 2px solid #B8B8B8;
+	border-top: 2px solid #B8B8B8;
+}
+
+#footer {
+	background-color: white;
+	height: 20px;
+	text-align: center;
+	padding: 5px;
+	border-top: 2px solid #B8B8B8 ;
+	position: fixed;
+    bottom: 0;
+}
+
+#main{
+	height: 2000px;	
+	background-image: url(bg.jpg);
+}
+
+div#left,div#middle,div#right {
+	height:100%;
+}
+
+#left {
+	background:transparent;
+	width:15%;
+	float:left;
+	padding: 5px;
+}
+
+#middle {
+	background:#F0F0F0 ;
+	width:65%;
+	float:left;
+	border-left: 2px solid #B8B8B8;
+	border-right: 2px solid #B8B8B8;
+}
+
+.login {
+  	background: #E0E0E0 ;
+  	border: 2px solid #B8B8B8;;
+  	margin-left: 10px;
+  	margin-top: 10px;
+  	margin-right: 10px;
+  	height: 117px;
+}
+
+.login div#align_login_right{
+	width: 25%;
+	float: left;
+	height: 100%;
+	text-align: right;
+	padding-top: 10px;
+	padding-right: 10px;
+}
+label#pass {
+	margin-top: 5px;
+	margin-bottom: 3px;
+	display: block;
+}
+.login div#align_login_left{
+	float: left;
+	height: 100%;
+	padding-top: 10px;
+}
+input#password {
+	margin-top:3px;
+}
+
+.frame{
+	background: #E0E0E0 ;
+  	border: 2px solid #B8B8B8;;
+  	margin-left: 10px;
+  	margin-top: 10px;
+  	margin-right: 10px;
+  	padding: 5px;
+}
+
+input#input{
+	margin-top:5px;
+	width:10%;
+}
+input#line1{
+	width: 88%;
+}
+input#line2{
+	width: 98%;
+	margin-bottom: 3px;
+}
+
+label#upload_file{
+	margin: 5px;
+}
+
+#right {
+	background:transparent;
+	padding: 5px;
+	float:left;
+	width: 18%;
+
+}
+label#stat {
+	margin: 10px;
+}
+
+table {
+	margin: 5px;
+	width: 99%;
+}
+
+td.td_left{
+	text-align: left;
+}
+
+#tr_top{
+	border-top: 2px solid #A0A0A0 ;
+}
+
+td {
+    border-bottom: 2px solid #A0A0A0 ;
+    text-align: center;
+}
+
+#td_third{
+	width: 25%;
+}
+#td_second, #td_fourth{
+	width: 15%;
+}
+.file_set{
+    text-decoration: none;
+    color: black
+}
