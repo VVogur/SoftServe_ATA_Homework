@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Log page</title>
+    <link rel="stylesheet" href="style.css">
+    
+  
+<body>
+
+
+        <div class="block" id="header_set">
+            <label id="header_set">
+                <img src="folder_icon.jpg" alt="folder">
+                Файловое хранилище v 0.01 (потеряй свои файлы красиво! ;))
+                <img src="folder_icon.jpg" alt="folder">
+            </label>
+        </div>
+        
+        
+        <div class="block" id="header">
+        Вы вошли в систему как <b>Иванов Иван Иванович.</b>
+        <a href="index.html">Выйти.</a>
+        </div>
+        
+        
+        <div class="block" id="main">
+            <div id="left">
+                <label id="stat"><b>Можно загружать:</b> <br></label>
+                <label id="stat">ZIP: (до 20 Mb);<br></label>
+                <label id="stat">DOCX (до 40 Mb);<br></label>
+                <label id="stat">PPTX (до 50 Mb);<br></label>
+                <label id="stat"><b>Использовано</b><br></label>
+                <label id="stat">27.34 Mb из 100.00 Mb<br></label>
+            </div>
+            <div id="middle">
+                 <table id="table">
+                      <tr id="td_top">
+                        <td ><a href="#" class="file_set" onclick="">Файл</a></td>
+                        <td id="td_second">Размер (Kb)</td>
+                        <td id="td_third">Дата и время</td>
+                        <td id="td_fourth">Удалить</td>
+                      </tr>
+                      <tr>
+                        <td class="td_left"><a href="">Этот архив с русским именем.zip</a></td>
+                        <td>132.22</td>
+                        <td>2014.02.28 18:01:15</td>
+                        <td><a href="">Удалить</a></td>
+                      </tr>
+                      <tr>
+                        <td class="td_left"><a href="">_www_app.zip</a></td>
+                        <td>132.45</td>
+                        <td>2014.02.28 18:24:54</td>
+                        <td><a href="">Удалить</a></td>
+                      </tr><tr>
+                        <td class="td_left"><a href="">aaa</a></td>
+                        <td>132.45</td>
+                        <td>2014.02.28 18:24:54</td>
+                        <td><a href="">Удалить</a></td>
+                      </tr>
+                      <tr>
+                        <td class="td_left"><a href="">ааааа</a></td>
+                        <td>132.45</td>
+                        <td>2014.02.28 18:24:54</td>
+                        <td><a href="">Удалить</a></td>
+                      </tr>
+                </table> 
+                <div class="frame">
+                        <label>Загрузить новый файл:</label><br>
+                        <input id="input" type="button" value="Выбрать">  
+                        <input id="line1" type="text">
+                        <br>
+                          <input id="input" type="submit" value="Загрузить">
+                </div>
+                <div class="frame">
+                        <label>Запросить с удаленного сервера:</label><br>
+                        <input id="line2" type="text"><br>
+                        <label>Поместить в хранилище:</label>
+                        <input type="checkbox" checked><br>
+                          <input id="input" type="submit" value="Запросить">
+                </div>
+            </div>	
+            <div id="right">
+                <label id="stat"><b>Статистика:</b> <br></label>
+                <label id="stat">Пользователей: 123 <br></label>
+                <label id="stat">Файлов: 1234<br></label>
+                <label id="stat">Объем: 2345 Mb <br></label>
+                <label id="stat">Объем / польз.: 45 Mb</label>
+            </div>
+        </div>
+
+        <div class="block" id="footer">
+            @2020, HILLEL Training
+        </div>
+
+        <script src="script.js"></script>
+</body>
+</html>
