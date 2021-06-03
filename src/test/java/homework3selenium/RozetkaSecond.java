@@ -92,9 +92,9 @@ public class RozetkaSecond {
         wait.until(ExpectedConditions.presenceOfAllElementsLocatedBy(By.cssSelector("div.goods-tile__inner")));
         listPhone = driver.findElements(By.cssSelector("span.goods-tile__price-value"));
 
-        for (int i = 0; i < listPhone.size(); i++) {
+        for (WebElement webElement : listPhone) {
 
-            String str = listPhone.get(i).getText().replaceAll(" ", "");
+            String str = webElement.getText().replaceAll(" ", "");
             boolean a = false;
             if (Integer.parseInt(str) > 5000) {
                 a = Integer.parseInt(str) > 5000;
