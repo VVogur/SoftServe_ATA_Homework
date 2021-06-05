@@ -1,2 +1,4 @@
 .idea/
 /src/test/java/homework3selenium/Facebook.java
+/target/
+/build/
